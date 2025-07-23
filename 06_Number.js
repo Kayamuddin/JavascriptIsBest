@@ -28,7 +28,7 @@ console.log(num.toFixed(2));          // "123.46"
 console.log(num.toFixed(3));          // "123.456"    //set the floating point units
 
 console.log(num.toPrecision(5));      // "123.46"   
-console.log(num.toPrecision(7));      // "123.4560"   //set how many number display
+console.log(num.toPrecision(7));      // "123.4560"   //set how many number display, number must bigger than before float unit, here is 3
 
 console.log(num.toExponential(1));    // "1.2e+2"
 console.log(num.toString());        // "123.456"  // typeof string
