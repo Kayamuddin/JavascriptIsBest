@@ -6,6 +6,11 @@ console.log("Vari"
 
 /* Declare
 const NotChangeableAndNotEmpty = 0
+all non-primitive values (like arrays, objects, functions, etc) can have their internal contents changed, 
+even if they are declared using const
+📦 Why?
+Because objects and arrays are reference types — const only locks the reference (the memory address), not the internal contents.
+
 let memory1;
 var memory2;
 name = "Kayamuddin"
